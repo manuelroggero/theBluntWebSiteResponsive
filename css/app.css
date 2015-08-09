@@ -1,0 +1,126 @@
+/* PERSONAL STYLES TO FOUNDATION CSS FOR THE BLUNT WEB SITE*/
+
+/* STYLING THE MAIN NAVIGATION BAR */
+
+
+.logo {
+  width: 40px;
+  margin-left: 5px; }
+
+@media only screen and (min-width: 40.063em) {
+  .top-bar {
+    background-color:#64C8FF; 
+    height: 6rem;
+    padding-top: 3rem;
+    position: relative; }
+
+  .social-icons {
+    position: absolute;
+    right: 0;
+    top: -45px; }
+
+  .logo {
+    width: 180px;
+    margin-top: -2.3rem;
+  hide-for-small-only;} }
+@media only screen and (min-width: 40.063em) {
+  .social-icons {
+    top: -50px; } }
+
+/* STYLING LINK BUTTONS ON THE MAIN NAVIGATION BAR */
+
+ .top-bar-section li.hover > a:not(.button) {
+      background-color: transparent;
+      background: #64C8FF;
+      color: #FFFFFF; }
+    .top-bar-section li:not(.has-form) a:not(.button) {
+      background: #64C8FF;
+      line-height: 2.8125rem;
+      padding: 0 0.9375rem; }
+      .top-bar-section li:not(.has-form) a:not(.button):hover {
+        background-color: #64C8FF;
+        background: #5DBAED; }
+.top-bar-section li.active:not(.has-form) a:not(.button):hover {
+        background: #64C8FF;
+        color: #FFFFFF; }
+ .top-bar-section ul li.active > a {
+      background: red;
+      color: #FFFFFF; }
+      .top-bar-section ul li.active > a:hover {
+        background: red;
+        color: #FFFFFF; }
+
+.top-bar-section > ul > .divider,
+    .top-bar-section > ul > [role="separator"] {
+      border-right: solid 1px #fff;
+    }
+
+ .top-bar-section .dropdown li a {
+        background: #64C8FF;
+        color: #FFFFFF;
+        line-height: 2.8125rem;
+        padding: 12px 0.9375rem;
+        white-space: nowrap; }
+      .top-bar-section .dropdown li:not(.has-form):not(.active) > a:not(.button) {
+        background: #64C8FF;
+        color: #FFFFFF; }
+      .top-bar-section .dropdown li:not(.has-form):not(.active):hover > a:not(.button) {
+        background-color: #64C8FF;
+        color: #FFFFFF;
+        background: #5DBAED; }
+      .top-bar-section .dropdown li label {
+        background: #5DBAED
+        white-space: nowrap; }
+      .top-bar-section .dropdown li .dropdown {
+        left: 100%;
+        top: 0; }
+
+@font-face {
+    font-family: "alpha_echoregular";
+       src: url("alpha_echo-webfont.woff");
+}
+
+
+.mainHeader {
+    font-family: "alpha_echoregular";
+    font-size: 3em;
+   }
+
+
+.flex-video {
+    max-width: 960px
+    padding-bottom: 0%;
+  padding-top: 0%;
+}
+.flex-video.widescreen {
+    padding-bottom:40%; }
+
+
+section {
+     background-color: rgba(204,249,255,.2);
+    border-radius: 20px;
+}
+
+@font-face {
+    font-family: "porter_sans_blockblock";
+       src: url('porter-sans-inline-block-webfont.woff') format('woff');
+}
+
+
+@font-face {
+    font-family: 'zero__zero_isregular';
+    src: url('zero_and_zero_is-webfont.eot');
+    src: url('zero_and_zero_is-webfont.eot?#iefix') format('embedded-opentype'),
+         url('zero_and_zero_is-webfont.woff') format('woff'),
+         url('zero_and_zero_is-webfont.ttf') format('truetype'),
+         url('zero_and_zero_is-webfont.svg#zero__zero_isregular') format('svg');
+    font-weight: normal;
+    font-style: normal;
+
+}
+
+
+h2 {
+   font-family: 'zero__zero_isregular';
+    font-size: 2.5em;
+}
