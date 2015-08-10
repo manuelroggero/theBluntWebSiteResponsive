@@ -165,7 +165,7 @@ h2 {
 
 
 body {
-     background-image: url("../img/geers.svg"), linear-gradient(45deg, rgba(0,92,145,0.85) 0%,rgba(255,255,255,1) 100%);
+    background-image: url("../img/geers.svg"), linear-gradient(45deg, rgba(0,92,145,0.85) 0%,rgba(255,255,255,1) 100%);
     color: #004161;
 }
 
@@ -180,6 +180,14 @@ body {
 
 
 .background-1 {
+    background: url("../img/wave-backgroundW1000px.png"),rgba(255,255,255,1);
+    background-repeat: repeat-x;
+    color: #004161;
+    padding: 2% 2% 2% 2%;
+    margin-bottom: 2%;  
+}
+
+.background-2 {
     padding: 2% 2% 2% 2%;
     margin-bottom: 2%;
     margin-left: 2%;
@@ -188,6 +196,5 @@ body {
     border-radius: 30px;
     
 }
-
 
     
