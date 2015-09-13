@@ -1,3 +1,5 @@
+<!----HOME PAGE----------------------------------------------------->
+
 <!doctype html>
 <html class="no-js" lang="en">
 
@@ -46,54 +48,70 @@
 
  <!----MAIN NAVIGATION---------------------------------------------------------------------->   
     
-<nav class="top-bar" data-topbar role="navigation">
-  <ul class="title-area">
-    <div class="logo left">
-    <a href="index.html"><img class="hide-for-small-only" src="img/logoTheBluntSmallW250px.png"></a>
-    </div>
-     <!-- Remove the class "menu-icon" to get rid of menu icon. Take out "Menu" to just have icon alone -->
-    <li class="toggle-topbar menu-icon"><a href="#"><span>Menu</span></a></li>
-  </ul>
+  <div class="off-canvas-wrap" data-offcanvas>
+      <div class="inner-wrap">
+        <nav class="tab-bar hide-for-medium-up">
+            <section class="left-small">
+              <a class="left-off-canvas-toggle menu-icon"><span></span></a>
+            </section>
+        </nav>
+            <aside class="left-off-canvas-menu">
+              <ul class="off-canvas-list">
+                <li><a href="index.html">Home</a>
+                 <ul>
+                    <li><a href="#theVerdict">The Verdict</a></li>
+                    <li><a href="#theComparison">The Comparison</a></li>
+                    <li><a href="#theAccidents">The Accidents</a></li>
+                  </ul>
+                </li>
+                <li><a href="techinfo/index.html">Tech Info</a></li>
+                <li><a href="aboutus/index.html">About Us</a></li>
+                <li><a href="blog/index.html">Blog</a></li>
+              </ul>
+            </aside>
+            <a class="exit-off-canvas"></a>
 
-  <section class="top-bar-section">
-    <ul class="right">
-        <li class="has-dropdown active">
-          <a href="#">Home</a>
-            <ul class="dropdown">
-                <li class=""><a href="#">The Verdict</a></li>
-                <li class=""><a href="#">The Comparison</a></li> 
-                <li class=""><a href="#">The Accidents</a></li>
+    <!-- top bar code -->
+    <nav class="top-bar show-for-medium-up" data-topbar>
+      <ul class="title-area">
+        <li class="name"></li>
+        <li class="toggle-topbar menu-icon"><a href="index.html">Menu</a></li>
+      </ul>
+      <section class="top-bar-section">
+        <ul class="social-icons">
+            <li><a href=""><i class="fi-telephone"></i></a></li>
+            <li><a href=""><i class="fi-social-linkedin"></i></a></li>
+            <li><a href=""><i class="fi-social-twitter"></i></a></li>
+            <li><a href=""><i class="fi-social-facebook"></i></a></li>
+        </ul>
+                   
+        <ul>
+          <li class="active has-dropdown"><a href="index.html">Home</a>
+           <ul class="dropdown">
+              <li  class="active"><a href="#theVerdict">The Verdict</a></li>
+              <li><a href="#theComparison">The Comparison</a></li>
+              <li><a href="#theAccidents">The Accidents</a></li>
             </ul>
-        </li>
-        <li class="divider"></li>
-        <li class=""><a href="#">Tech Info</a></li>
-        <li class="divider"></li>
-        <li class=""><a href="#">About Us</a></li>
-        <li class="divider"></li>
-        <li class=""><a href="#">Blog</a></li>
-        <li class="divider"></li>
-    </ul>
+          </li>
+        <li><a href="techinfo/index.html">Tech Info</a></li>
+        <li><a href="aboutus/index.html">About Us</a></li>
+        <li><a href="blog/index.html">Blog</a></li>
+        </ul>
+          
+          
+      </section>
+    </nav>
 
-    <ul class="social-icons">
-      <li><a href=""><i class="fi-telephone"></i></a></li>
-      <li><a href=""><i class="fi-social-linkedin"></i></a></li>
-      <li><a href=""><i class="fi-social-twitter"></i></a></li>
-      <li><a href=""><i class="fi-social-facebook"></i></a></li>
-    </ul>
-    
-  </section>
-</nav>
-
-    
-    
-  <!--HEADER SLOGAN---------------------------------------------------------------------->  
+ 
+<!--HEADER SLOGAN-------------------------------------------------------------->  
 <section class="background-0 hide-for-small-only">
 <div class="row top" >
-    <div class="large-12 columns mainHeader">Engineering surfing protection since now! </div>
+    <div class="large-12 columns mainHeader">Engineering surfing protection</div>
+    <div class="large-12 columns mainHeader, testimonialName">  The purpose of protection is not protection itself, but the ability to permit athletes to perform to their maximum potential with confidence.</p> </div>
 </div>
     </section>
     
-<!--VIDEO SECTION------------------------------------------------------------------------->    
+<!--VIDEO SECTION-------------------------------------------------------------->    
 <section class="background-1">
     <div class="row">
         
@@ -103,8 +121,8 @@
     </div>
  </section>
 
-<!--THE VERDICT SECTION------------------------------------------------------------------------->
-<section class="background-3">
+<!--THE VERDICT SECTION-------------------------------------------------------->
+<section class="background-3" id="theVerdict">
     <div class="row">
 <div class="large-12 large-centered">
     <h2> The Verdict </h2>
@@ -113,8 +131,8 @@
     </div>
 </section>   
 
-<!--THE COMPARISON SECTION------------------------------------------------------------------------->    
-<section class="background-3">
+<!--THE COMPARISON SECTION---------------------------------------------------->    
+<section class="background-3" id="theComparison">
     <div class="row">
         <h2> The Comparison </h2>
         <div class="large-6 columns">
@@ -130,31 +148,31 @@
     
     
 <!--THE TESTIMONIALS SECTION----------------------------------------------------------------->
-<section class="background-3">
+<section class="background-3" id="theAccidents">
     <div class="row">
     <h2> The Accidents </h2>
 <ul class="large-block-grid-4">
     <li> <img  class="th" src="img/stormPortmanW500px.jpg">
-    <div class="uniqueText">Storm Portman</div>
+    <div class="testimonialName">Storm Portman</div>
     <div class="uniqueText2"> Age 14 </div>
     <div class="uniqueText2"> Satellite Beach, Florida </div>
     <div class="testBorder"> Treading water amid 4 to 5 foot waves, Storm Portman prepared to hop back on her surfboard offshore from Pelican Beach Park. However, her surfboard leash got tangled around her foot, and the nose of the board was pointed toward her head. When she turned her body, the board shot forward — and rammed into her left eye. &laquo;It happened really fast. I covered my eye, but my eye wasn't really in the right place,&raquo; she recalled.
     <br>Portman, 14, the reigning Eastern Surfing Association girls champion, suffered a "globe rupture" of her eyeball in Jan. 15 accident.</div></li>
         
     <li> <img class="th" src="img/clayMarzoW500px.jpg">
-    <div class="uniqueText">Clay Marzo</div>           
+    <div class="testimonialName">Clay Marzo</div>           
     <div class="uniqueText2">Age 20</div>           
     <div class="uniqueText2">New Zealand, Wellington</div>         
     <div class="testBorder"> I've been surfing since I was 8 years old, last yaera I had a terrible accident, while doing a high air I had a harsh landing and the tip of my surfboard pierced my left cheek, fortunately no permanent damage was done, but if I would have had The Blunt as a surf tip protector I'm sure the accident would just have been a bruise.</div></li>
         
     <li > <img class="th" src="img/julianWilsonW500px.jpg">
-    <div class="uniqueText">Julian Wilson</div>           
+    <div class="testimonialName">Julian Wilson</div>           
     <div class="uniqueText2"> Age 22 </div>
     <div class="uniqueText2"> San Clemente, CA </div>
     <div class="testBorder"> I've been surfing since I was 8 years old, last yaera I had a terrible accident, while doing a high air I had a harsh landing and the tip of my surfboard pierced my left cheek, fortunately no permanent damage was done, but if I would have had The Blunt as a surf tip protector I'm sure the accident would just have been a bruise.</div></li>
     
     <li> <img class="th" src="img/manuelRoggeroW500px.jpg">
-    <div class="uniqueText">Manuel Roggero</div>           
+    <div class="testimonialName">Manuel Roggero</div>           
    <div class="uniqueText2"> Age 36 </div>
    <div class="uniqueText2"> Peru, Lima </div>
      <div class="testBorder"> I've been surfing since I was 8 years old, last yaera I had a terrible accident, while doing a high air I had a harsh landing and the tip of my surfboard pierced my left cheek, fortunately no permanent damage was done, but if I would have had The Blunt as a surf tip protector I'm sure the accident would just have been a bruise.</div></li>    
@@ -214,7 +232,7 @@
 </footer>
 </section>
     
-    
+<div class="pageLimitBottom"> </div>  
     
     
     

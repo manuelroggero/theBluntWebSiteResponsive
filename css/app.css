@@ -1,7 +1,8 @@
-/* PERSONAL STYLES TO FOUNDATION CSS FOR THE BLUNT WEB SITE*/
+/*----PERSONAL STYLES TO FOUNDATION CSS FOR THE BLUNT WEB SITE----------------*/
 
 
-/*--EMBEDDED FONTS-------------------------*/
+
+/*----EMBEDDED FONTS----------------------------------*/
 
 @font-face {
     font-family: "porter_sans_blockblock";
@@ -61,7 +62,6 @@
          url('Exotica-webfont.svg#exoticamedium') format('svg');
     font-weight: normal;
     font-style: normal;
-
 }
 
 @font-face {
@@ -77,16 +77,7 @@
 }
 
 
-
-
-
-
-
-/*--EMBEDDED FONTS-------------------------*/
-
-
-
-/* STYLING THE MAIN NAVIGATION BAR */  
+/*----STYLING THE MAIN NAVIGATION BAR---------------------------*/  
 
 nav .logo {
   width: 300px;
@@ -101,43 +92,47 @@ nav .logo {
 
 nav .social-icons {
     position: absolute;
-    right: 0;
+    left: 0;
     top: -45px; }
 
 nav .logo {
-    width: 300px;
-    margin-top: -2.3rem; } }
+    position: absolute;
+    right: 0;
+}
+
 @media only screen and (min-width: 40.063em) {
   .social-icons {
     top: -45px; } }
 
 
-/* STYLING LINK BUTTONS ON THE MAIN NAVIGATION BAR */
+/*----STYLING LINK BUTTONS ON THE MAIN NAVIGATION BAR----------------*/
 
  .top-bar {
-  background: #64C8FF;
-  height: 9.2rem;
+  background: #52A4D1;
+  height: 6.2rem;
   line-height: 2.8125rem;
   margin-bottom: 0px;
  }
-    
+
+
+
+
 .top-bar-section li.hover > a:not(.button) {
     background-color: transparent;
-    background: #64C8FF;
+    background: #52A4D1;
     color: #FFFFFF; }
 .top-bar-section li:not(.has-form) a:not(.button) {
     font-size: 1.2rem;
-    
-    background: #64C8FF;
+    background: #52A4D1;
     line-height: 2.8125rem;
     padding: 0 1rem;
     margin-right: 0px;
 }
 .top-bar-section li:not(.has-form) a:not(.button):hover {
-    background-color: #64C8FF;
+    background-color: #52A4D1;
     background: #5DBAED; }
 .top-bar-section li.active:not(.has-form) a:not(.button):hover {
-    background: #64C8FF;
+    background: #52A4D1;
     color: #FFFFFF; }
 .top-bar-section ul li.active > a {
     background: red;
@@ -152,16 +147,16 @@ nav .logo {
 }
 
 .top-bar-section .dropdown li a {
-        background: #64C8FF;
+        background: #52A4D1;
         color: #FFFFFF;
         line-height: 2.8125rem;
         padding: 12px 0.9375rem;
         white-space: nowrap; }
 .top-bar-section .dropdown li:not(.has-form):not(.active) > a:not(.button) {
-        background: #64C8FF;
+        background: #52A4D1;
         color: #FFFFFF; }
 .top-bar-section .dropdown li:not(.has-form):not(.active):hover > a:not(.button) {
-        background-color: #64C8FF;
+        background-color: #52A4D1;
         color: #FFFFFF;
         background: #5DBAED; }
 .top-bar-section .dropdown li label {
@@ -172,14 +167,9 @@ nav .logo {
         top: 0; }
 
 
-@font-face {
-    font-family: "alpha_echoregular";
-       src: url("alpha_echo-webfont.woff");
-}
 
 
-
-/*----STYLING VIDEO SECTION--------------*/
+/*----STYLING VIDEO SECTION------------------------------------*/
 
 .flex-video {
   position: relative; }
@@ -197,46 +187,11 @@ nav .logo {
     width: 100%;
     left: 0; }
 
-
-
-
-
-
-h2 {
-   font-family: 'geometry_soft_probold_n';
-    font-size: 3.2rem;
-    margin-bottom: 2%;
-    text-shadow: 0px 3px 7px #CCF9FF;
-    color:#004161;
-}
-
-
-
-.pageLimitTop {
-    height: 20px;
-    background: #001E2D;
-}
-
-.th {
-    border-radius: 5%;
-    box-shadow: 0px 5px 20px #888888;
-    
-}
-
-
-    
-
-    
-    
-   
-
-   
-
+/*----STYLING BODY SECTION------------------------------------*/
 
 body {
     background-image: url("../img/geers.svg"), linear-gradient(45deg, rgba(0,92,145,0.85) 0%,rgba(255,255,255,1) 100%);
     color: #004161;
-    
 }
 
 .background-0 {
@@ -247,7 +202,6 @@ body {
     color: #004161;
     text-align: center;
 }
-
 
 .background-1 {
     background:url("../img/watermelonBackgroundW250px.png") ,rgba(255,255,255,.6) ;
@@ -270,20 +224,55 @@ body {
 
 .background-3 {
     padding: 2% 2% 2% 2%;
+    margin-top: 2%;
     margin-bottom: 2%;
     margin-left: 2%;
     margin-right: 2%;
     background: rgba(204,249,255,.6);
-    background-repeat: no-repeat;
-    background-position:bottom right;
     border-radius: 30px;
 }
 
+.background-4 {
+    padding: 2% 2% 2% 2%;
+    margin-bottom: 2%;
+    margin-left: 2%;
+    margin-right: 2%;
+    background: rgba(204,249,255,.6);
+    border-radius: 30px;
+}
+    
+
+.pageLimitTop {
+    height: 20px;
+    background: #001E2D;
+}
+
+.pageLimitBottom {
+    height: 15px;
+    background: #001E2D;
+}
+
+.th {
+    border-radius: 5%;
+    box-shadow: 0px 5px 20px #888888;
+}
+
+/*----STYLING TYPOGRAPHY------------------------------------*/
+
+h2 {
+   font-family: 'geometry_soft_probold_n';
+    font-size: 3.2rem;
+    line-height:  3.2rem;
+    margin-bottom: 3%;
+    text-shadow: 0px 3px 7px #CCF9FF;
+    color:#004161;
+}
 
 .uniqueText {
     font-size: 2rem;
-    font-weight: 600;
+    font-weight: 400;
     line-height: 2.5rem;
+    font-style: italic;
 }
     
 .uniqueText1 {
@@ -294,10 +283,17 @@ body {
 }
 
 .uniqueText2 {
-    font-size: 1.5rem;
+    font-size: 1.2rem;
     font-weight: 400;
-    line-height: 2.0rem;
+    line-height: 1.5rem;
     font-style:italic;
+}
+
+.testimonialName {
+    font-size: 1.5rem;
+    font-weight: 600;
+    line-height: 2.0rem;
+
 }
 
 .testBorder {
@@ -314,13 +310,11 @@ body {
 }
 
 .footer {
-  
     text-align: center;
     font-size: 1.2rem;
     background: url("../img/watermelonFooter2.png"), #001E2D;
     background-position: bottom right; 
-    background-repeat: repeat-x;
-    
+    background-repeat: repeat-x; 
 }
 
   .footer .social a {
@@ -396,15 +390,38 @@ body {
     margin-right: 5%;
 }
 
+.panel {
+color: #fff;
+background: #004161;
+}
+.panel p {
+    color: #fff;
+}
 
 .logo {
   color: #fff;
   font-size: 1.5rem; }
-  .logo i {
+.logo i {
     margin-right: 0.5rem; }
 .logo1 {
   color: #fff;
     text-align: right;
     padding-bottom: 3%;
   font-size: 1.5rem; }
+    
+.inline-list {
+    list-style: none;
+    margin-left: -1.375rem;
+    margin-right: 0;
+    margin: 0 auto 1.0625rem auto;
+    overflow: hidden;
+    padding: 0; }
+  .inline-list > li {
+    display: block;
+    float: left;
+    list-style: none;
+    margin-left: 1.375rem; }
+    .inline-list > li > * {
+    display: block; 
+}    
     

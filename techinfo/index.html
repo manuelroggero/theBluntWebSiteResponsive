@@ -8,11 +8,22 @@
     <meta charset="utf-8" />
     <meta name="viewport" content="width=device-width, initial-scale=1.0" />
     <title>The Blunt</title>
-    <link href='http://fonts.googleapis.com/css?family=Alegreya+Sans' rel='stylesheet' type='text/css'>
-    <link rel="stylesheet" href="../css/foundation.min.css" />
-    
+    <link rel="stylesheet" href="../css/normalize.css" />
+    <link rel="stylesheet" href="../css/foundation.css" />
+    <link rel="stylesheet" href="../css/app.css" />
     <script src="../js/vendor/modernizr.js"></script>
-   
+  
+<!----EMBEDDED FONT LINKS-------------------------------------------->    
+    
+<link rel="stylesheet" href="../css/fonts/stylesheet.css" type="text/css" charset="utf-8" />
+<link rel="stylesheet" href="../css/fonts/porterSans/stylesheet.css" type="text/css" charset="utf-8" />
+<link rel="stylesheet" href="../css/fonts/zeroZero/stylesheet.css" type="text/css" charset="utf-8" />
+<link rel="stylesheet" href="../css/fonts/burlingtonScript/stylesheet.css" type="text/css" charset="utf-8" />
+<link rel="stylesheet" href="../css/fonts/carousel/stylesheet.css" type="text/css" charset="utf-8" />
+<link rel="stylesheet" href="../css/fonts/clutchee/stylesheet.css" type="text/css" charset="utf-8" />
+<link rel="stylesheet" href="../css/fonts/exotica/stylesheet.css" type="text/css" charset="utf-8" />
+<link rel="stylesheet" href="../css/fonts/geometry/stylesheet.css" type="text/css" charset="utf-8" />
+    
   
 </head>
 
@@ -22,67 +33,121 @@
 
 <body>
 
-    
+    <div class="pageLimitTop"> </div>
 
+ <!----MAIN NAVIGATION---------------------------------------------------------------------->   
     
-    
-<!----PHOTO GALLERY----------------------------------------------------------------------->
-    
-  
-    
-    <div class="row">
-      <div class="medium-9 medium-push-3 columns">
-        <h2>Photo Gallery</h2>
-          <ul class="clearing-thumbs small-block-grid-2 medium-block-grid-3 large-block-grid-4" data-clearing>
-            
-           <li><a href="../img/imageGallery1.jpg" class="th"><img src="../img/imageGallery1thumb.jpg" data-caption="The Blunt inline   view"></a></li>
-            <li><a href="../img/imageGallery2.jpg" class="th"><img src="../img/imageGallery2thumb.jpg" data-caption="The Blunt inline view">></a></li>
-            <li><a href="../img/imageGallery3.jpg" class="th"><img src="../img/imageGallery3thumb.jpg" data-caption="The Blunt inline view">></a></li>
-            <li><a href="../img/imageGallery4.jpg" class="th"><img src="../img/imageGallery4thumb.jpg" data-caption="The Blunt inline view">></a></li> 
-            <li><a href="../img/imageGallery5.jpg" class="th"><img src="../img/imageGallery5thumb.jpg" data-caption="The Blunt inline view">></a></li>
-            <li><a href="../img/imageGallery6.jpg" class="th"><img src="../img/imageGallery6thumb.jpg" data-caption="The Blunt inline view">></a></li>   
-            
-          
-          
-          </ul>
-       
-      </div>
-      <aside class="medium-3 medium-pull-9 columns panel">
-        <p>Each view of the Blunt Clearly shows the amount of thought and detail that went into its final production. We combined different densities of materials alon the rim in order to provide a greater dampening effect upon impact.</p>
-        <h3>Quick Links</h3>
-        <ul class="side-nav">
-          <li><a href="#">Reservations</a></li>
-          <li><a href="#">Pet Policy</a></li>
-          <li><a href="#">Things to Do</a></li>
-          <li><a href="#">Specials</a></li>
+  <div class="off-canvas-wrap" data-offcanvas>
+      <div class="inner-wrap">
+        <nav class="tab-bar hide-for-medium-up">
+            <section class="left-small">
+              <a class="left-off-canvas-toggle menu-icon"><span></span></a>
+            </section>
+        </nav>
+            <aside class="left-off-canvas-menu">
+              <ul class="off-canvas-list">
+                <li><a href="../index.html">Home</a></li>
+                <li><a href="index.html">Tech Info</a></li>
+                <li><a href="../aboutus/index.html">About Us</a></li>
+                <li><a href="../blog/index.html">Blog</a></li>
+              </ul>
+            </aside>
+            <a class="exit-off-canvas"></a>
+
+    <!-- top bar code -->
+    <nav class="top-bar show-for-medium-up" data-topbar>
+      <ul class="title-area">
+        <li class="name"></li>
+        <li class="toggle-topbar menu-icon"><a href="index.html">Menu</a></li>
+      </ul>
+      <section class="top-bar-section">
+        <ul class="social-icons">
+            <li><a href=""><i class="fi-telephone"></i></a></li>
+            <li><a href=""><i class="fi-social-linkedin"></i></a></li>
+            <li><a href=""><i class="fi-social-twitter"></i></a></li>
+            <li><a href=""><i class="fi-social-facebook"></i></a></li>
         </ul>
-      </aside>
+                   
+        <ul>
+            <li><a href="../index.html">Home</a></li>
+            <li class="active"><a href="../techinfo/index.html">Tech Info</a></li>
+            <li><a href="../aboutus/index.html">About Us</a></li>
+            <li><a href="../blog/index.html">Blog</a></li>
+        </ul>
+          
+      </section>
+    </nav>
+    
+<!--HEADER SLOGAN-------------------------------------------------
+<section class="background-0 hide-for-small-only">
+<div class="row top" >
+    <div class="large-12 columns mainHeader">Engineering surfing protection since now! </div>
+</div>
+    </section>
+------------->  
+    
+<!----PHOTO GALLERY----------------------------------------------------------------------->  
+
+<section class="background-3">           
+<div class="row" data-equalizer>
+
+<h2>Photo Gallery</h2>
+<div class="medium-9 medium-push-3 columns"  data-equalizer-watch>
+  
+    <ul class="clearing-thumbs small-block-grid-2 medium-block-grid-3 large-block-grid-4" data-clearing> 
+        <li><a href="../img/imageGallery1.jpg"><img class="th" src="../img/imageGallery1thumb.jpg" data-caption="The Blunt inline view"></a></li>
+        <li><a href="../img/imageGallery2.jpg"><img img class="th" src="../img/imageGallery2thumb.jpg" data-caption="The Blunt inline view"></a></li>
+        <li><a href="../img/imageGallery3.jpg"><img img class="th" src="../img/imageGallery3thumb.jpg" data-caption="The Blunt inline view"></a></li>
+        <li><a href="../img/imageGallery4.jpg"><img img class="th" src="../img/imageGallery4thumb.jpg" data-caption="The Blunt inline view"></a></li> 
+        <li><a href="../img/imageGallery5.jpg"><img img class="th" src="../img/imageGallery5thumb.jpg" data-caption="The Blunt inline view"></a></li>
+        <li><a href="../img/imageGallery6.jpg"><img img class="th" src="../img/imageGallery6thumb.jpg" data-caption="The Blunt inline view"></a></li>   
+        <li><a href="../img/bluntOnBoard1.jpg"><img img class="th" src="../img/bluntOnBoard1thumb.jpg" data-caption="The Blunt on board view"></a></li>
+        <li><a href="../img/theBluntOnBoard2.jpg"><img img class="th" src="../img/theBluntOnBoard2thumb.jpg" data-caption="The Blunt on board view"></a></li>
+    </ul> 
+</div>
+      
+<aside class="medium-3 medium-pull-9 columns panel" data-equalizer-watch>
+    <p>Each view of the Blunt clearly shows the amount of thought and detail that went into its final production. We combined different densities of materials along the rim in order to provide a greater dampening effect upon impact.</p>
+    <div class="testimonialName">Quick Links</div>
+    <ul class="side-nav">
+        <li><a href="#">Impact Tests</a></li>
+        <li><a href="#">Materials Tests</a></li>
+        <li><a href="#">Fatigue Tests</a></li>
+        <li><a href="#">Final Technical Specs</a></li>
+
+    </ul>
+</aside>
+</div>
+</section>
+    
+<!----TECHNICAL TESTS----------------------------------------------------------------------->
+<section class= "background-3">  
+<div class="row">
+    <div class="large-12 columns">
+    <h2>Technical Tests &amp; Results</h2>
+        <div class="testimonialName">Impact Tests</div>
+        <div class="testimonialName">Materials Tests</div>
+        <div class="testimonialName">Fatigue Tests</div>
+        <div class="testimonialName">Final Technical Specs</div>
     </div>
     
-    
-    
-    
-    
-    
-    
-
-<!----PHOTO GALLERY----------------------------------------------------------------------->
-    
-<div class="row">
-    <div class="medium-9 medium-push-3 columns">
-    <h2>Technical Tests &amp; Results</h2>
 </div>    
+    </section>
     
-
 <!----PATENTS----------------------------------------------------------------------->
-
-    <div class="row">
-    <div class="medium-9 medium-push-3 columns">
+<section class= "background-3"> 
+<div class="row">
+    <div class="medium-9 medium-push-3 columns"> </div>
     <h2>Patent Documents</h2>
 </div>    
+          </section>
 
     
+
     
+<script src="../js/vendor/jquery.js"></script>
+<script src="../js/foundation.min.js"></script>
+<script> $(document).foundation(); </script> 
 
     
 </body>
